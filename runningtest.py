@@ -1,8 +1,5 @@
-def ndigits(x):
-    dig = str(x)
-    count =0
-    for i in dig:
-        count += 1
-    return count
+r = 0.43
+import math
 
-print(ndigits(486))
+C = 2*math.pi*r
+print C
