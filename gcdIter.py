@@ -9,4 +9,4 @@ def gcdIter (a,  b):
         testValue -= 1
 
     return testValue
-    
+
