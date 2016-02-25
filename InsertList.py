@@ -28,8 +28,24 @@ class intSet(object):
 
     def elem(self):
         '''Returns the numbers of elements in list'''
-        return 'Liength of elements is ' + self.vals.__len__()
+        return 'Liength of elements is ' + len(self.vals())
 
+    def intersect(self,other):
+        ''' Define and intersect method that returns a new intSet
+        containing elements that appear in both sets.
+        '''
+        if self.vals() is [] or other.vals() is []:
+            return []
+        res = []
+        if self.vals <= other.vals:
+            for e in self.vals:
+                if e in other.vals:
+                    res.append(e)
+        else:
+            for e in other.vals:
+                if e in self.vals:
+                    res.append(e)
+        return '{' + ','.join([str(e) for e in res]) + '}'
 
 s = intSet()
 
