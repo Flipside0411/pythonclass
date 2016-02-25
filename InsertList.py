@@ -25,3 +25,11 @@ class intSet(object):
         '''Returns a string representation of self'''
         self.vals.sort()
         return  '{' + ','.join([str(e) for e in self.vals]) + '}'
+
+    def elem(self):
+        '''Returns the numbers of elements in list'''
+        return 'Liength of elements is ' + self.vals.__len__()
+
+
+s = intSet()
+
