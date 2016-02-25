@@ -28,7 +28,7 @@ class intSet(object):
 
     def elem(self):
         '''Returns the numbers of elements in list'''
-        return 'Liength of elements is ' + len(self.vals())
+        return 'Length of elements is ' + len(self.vals())
 
     def intersect(self,other):
         ''' Define and intersect method that returns a new intSet
