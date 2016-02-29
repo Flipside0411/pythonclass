@@ -458,7 +458,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456622244541</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated file to add a def to return the len of the elements.&#10;also add def for intersection of elements.">
+      <created>1456622262624</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1456622262624</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
