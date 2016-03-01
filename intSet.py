@@ -1,3 +1,4 @@
+''' Class lecture practice example for MIT6001x'''
 class intSet(object):
     ''' An intSet is a set of integers
     The value is represented by a list of ints, sefl.vals.
